@@ -18,11 +18,11 @@ default_args = {
 
 
 def get_first_task():
-    print(f"This is my first DAG")
+    print(f"This is the first task.")
 
 
 def get_second_task():
-    print(f"This is my first DAG - second task")
+    print(f"This is the second task.")
 
 
 with DAG(
